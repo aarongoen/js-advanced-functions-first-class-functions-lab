@@ -14,11 +14,13 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 // }
 
 let func = 8
-let fare = 5
+let fare
 let mult = 4
 function createFareMultiplier(mult) {
     return function() {fare*mult}
 }
 
-// const fareDoubler = createFareMultiplier(fare){
-// fare*2}
+const fareDoubler = function(fare) {
+    let mult = 2
+    return createFareMultiplier(fare) {
+}
