@@ -5,9 +5,9 @@
     "passes": 6,
     "pending": 0,
     "failures": 7,
-    "start": "2021-03-07T14:14:44.760Z",
-    "end": "2021-03-07T14:14:45.468Z",
-    "duration": 708
+    "start": "2021-03-07T14:47:32.962Z",
+    "end": "2021-03-07T14:47:33.552Z",
+    "duration": 590
   },
   "tests": [
     {
@@ -41,7 +41,7 @@
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (internal/timers.js:461:21)",
@@ -117,7 +117,7 @@
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:7)\n    at processImmediate (internal/timers.js:461:21)",
@@ -172,7 +172,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (internal/timers.js:461:21)",
@@ -192,7 +192,7 @@
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:7)\n    at processImmediate (internal/timers.js:461:21)",
@@ -232,7 +232,7 @@
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
