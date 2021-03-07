@@ -7,20 +7,14 @@ const returnLastTwoDrivers = function() {return drivers.slice(-2)}
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-// let int
-// let func
-// function createFareMultiplier(int){
-// return func(){5*int}
-// }
-
-let func = 8
-let fare
-let mult = 4
 function createFareMultiplier(mult) {
-    return function() {fare*mult}
-}
+    return function callback(fare) {
+        return fare*mult }
+    }
 
-const fareDoubler = function(fare) {
-    let mult = 2
-    return createFareMultiplier(fare)
-}
+const fareDoubler = createFareMultiplier(2)
+const fareTripler = createFareMultiplier(3)
+
+function selectDifferentDrivers(drivers, func) {
+    return func(drivers)
+    }
