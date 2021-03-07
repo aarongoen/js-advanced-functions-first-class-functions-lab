@@ -22,5 +22,5 @@ function createFareMultiplier(mult) {
 
 const fareDoubler = function(fare) {
     let mult = 2
-    return createFareMultiplier(fare) {
+    return createFareMultiplier(fare)
 }
